@@ -1,0 +1,58 @@
+body
+{
+	font-family: sans-serif;
+	color: darkgrey;
+	background: url(images.jpg);
+	background-size: cover;
+}
+
+.userreg
+{
+	background: rgba(0,20,20,0.5); 
+	padding: 70px;
+	width: 250px;
+	margin: auto;
+	margin-top: 80px;
+	height: 600px;
+	margin-left: 200x;
+}
+
+form
+{
+	width: 240px;
+	text-align: center;
+}
+
+input
+{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	font-size: 15px;
+	font-family: sans-serif;;
+	border-bottom: 1px solid white;
+	outline: none;
+	color: white;
+	margin-bottom: 25px;
+}
+
+input[type= button]
+{
+	width: 100px;
+	border: none;
+	background: white;
+	font-size: 15px;
+	font-family: sans-serif;;
+	line-height: 25px;
+	padding: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+	color: black;	
+}
+
+input[type= button]:hover
+{
+	color: white;
+	background: grey;
+}
